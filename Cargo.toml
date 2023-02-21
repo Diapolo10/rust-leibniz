@@ -1,12 +1,12 @@
 [package]
 name = "rust-leibniz"
 version = "0.1.0"
-authors = ["Lari Liuhamo <Diapolo10@users.noreply.github.com>"]
-edition = "2018"
+authors = ["Lari Liuhamo <lari.liuhamo@gmail.com>"]
+edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-num_cpus = "1.10.1"
-threadpool = "*"
-crossbeam = "*"
+num_cpus = "^1.15.0"
+threadpool = "^1.8.1"
+crossbeam = "^0.7.2"
